@@ -28,6 +28,7 @@ const regexPoolVariable = forExample('parameter');
 | :-----: | :-: | :-: |
 | isEmail | isEmail('example@domain.com') | true, false |
 | onlyLetters | onlyLetters('example') | true, false |
+| onlyNumbers | onlyNumbers('123') | true, false |
 
 ## License
 MIT
@@ -37,3 +38,5 @@ MIT
 Initial commit and Adding isEmail control
 #### v1.1.0 
 Adding onlyLetters control
+#### v1.2.0 
+Adding onlyNumbers control
