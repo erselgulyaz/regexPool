@@ -29,6 +29,7 @@ const regexPoolVariable = forExample('parameter');
 | isEmail | isEmail('example@domain.com') | true, false |
 | onlyLetters | onlyLetters('example') | true, false |
 | onlyNumbers | onlyNumbers('123') | true, false |
+| isDate | isDate('31/05/2020', 'DD/MM/YYYY'), isDate('2020/6/1', 'YYYY/MM/DD') | true, false |
 
 ## License
 MIT
@@ -40,3 +41,5 @@ Initial commit and Adding isEmail control
 Adding onlyLetters control
 #### v1.2.0 
 Adding onlyNumbers control
+#### v1.3.0 
+Adding isDate control
