@@ -30,6 +30,7 @@ const regexPoolVariable = forExample('parameter');
 | onlyLetters | onlyLetters('example') | true, false |
 | onlyNumbers | onlyNumbers('123') | true, false |
 | isDate | isDate('31/05/2020', 'DD/MM/YYYY'), isDate('2020/6/1', 'YYYY/MM/DD') | true, false |
+| isDomain | isDomain('www.sample.com', 'wwwPath'), isDomain('sub.sample.com.tr', 'wwwOptionally') | true, false |
 
 ## License
 MIT
@@ -43,3 +44,5 @@ Adding onlyLetters control
 Adding onlyNumbers control
 #### v1.3.0 
 Adding isDate control
+#### v1.4.0 
+Adding isDomain control
